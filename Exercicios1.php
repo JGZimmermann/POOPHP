@@ -344,9 +344,9 @@ $book = new Book("Livro","Autor",100,true);
 $book2 = new Book("Livro2","Autor2",150,true);
 $library = new Library();
 
-//$library->addBook($book);
-//$library->addBook($book2);
-//$library->rentBook($pessoa->getName());
+$library->addBook($book);
+$library->addBook($book2);
+$library->rentBook($pessoa->getName());
 //print_r($library->getBooks());
-//$library->returnBook("Livro");
+$library->returnBook("Livro");
 //print_r($library->getBooks());
